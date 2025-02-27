@@ -1,0 +1,27 @@
+{
+  "manifestVersion": "1.0.0",
+  "id": "your.unique.bar.chart.id",
+  "version": "1.0.0",
+  "name": "IntelliJ d3 Bar Chart",
+  "description": "Bar chart from IntelliJ.",
+  "iconUrl": "icon.png",
+  "resource": [
+    {
+      "url": "visualization.js",
+      "type": "JS"
+    }
+  ],
+  "data": [
+    {
+      "name": "Category",
+      "label": "Category",
+      "type": "DIMENSION"
+    },
+    {
+      "name": "Value",
+      "label": "Value",
+      "type": "METRIC"
+    }
+  ],
+  "style": []
+}
